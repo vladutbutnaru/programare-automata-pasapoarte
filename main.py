@@ -12,10 +12,6 @@ from datetime import datetime
 
 iasiID = 84  # actually iasi
 #iasiID = 71
-nume = "Nume"
-prenume = "Prenume"
-email = "mail@mail.com"
-telefon = "0788888888"
 
 def get_new_captcha():
     s = requests.session()
